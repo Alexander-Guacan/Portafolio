@@ -6,10 +6,11 @@
     --primary-bg-color: #0f0f0f;
     --secondary-bg-color: #272727;
     --primary-txt-color: #f1f1f1;
+    --secondary-txt-color: #9a9a9a;
     --border-radius: 18px;
 }
 
-body {
+.body {
     margin: 0;
     background-color: var(--primary-bg-color);
     color: var(--primary-txt-color);
@@ -45,6 +46,11 @@ body {
 .subtitle {
     text-align: center;
     margin-top: -15px;
+    color: var(--secondary-txt-color);
+}
+
+.paragraph {
+    color: var(--secondary-txt-color);
 }
 
 .profile {
@@ -95,6 +101,9 @@ body {
 
 .btn:hover {
     cursor: pointer;
+    background-color: var(--secondary-bg-color);
+    border: 1px solid var(--primary-bg-color);
+    transition: .3s;
 }
 
 .demo {
@@ -104,4 +113,8 @@ body {
 
 .demo__img {
     width: 80%;
+}
+
+.demo__description {
+    color: var(--secondary-txt-color);
 }

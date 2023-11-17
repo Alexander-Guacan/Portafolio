@@ -5,12 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio - Alexander Guacán</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b19b50badb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    
-    
+    <main class="main">
+        <section class="card profile">
+            <article class="profile__title">
+                <img class="profile__photo" src="../img/profile.jpg" alt="profile photo">
+                <h2 class="title">Alexander Guacán</h2>
+                <p class="subtitle">Ingeniero en Software</p>
+            </article>
+
+            <article class="profile__main">
+                <article class="profile__section"><i class="fa-solid fa-location-dot"></i> Quito, Ecuador</article>
+                <article class="profile__section"><i class="fa-solid fa-school"></i></i> Universidad de las Fuerzas
+                    Armadas ESPE</article>
+                <article class="profile__section"><i class="fa-solid fa-earth-americas"></i> Ingles B1</article>
+                <article class="profile__section"><i class="fa-solid fa-code"></i> C, C++, Java, JavaScript, HTML y CSS.
+                </article>
+            </article>
+
+            <article class="profile__footer">
+                <div>
+                    <h4 class="title">Redes sociales</h4>
+                    <a href="https://www.facebook.com/alexander.guacan" class="icon" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/alexanderguacan/" class="icon" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/AlexanderGuacan" class="icon" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:alexander.guacan2003@gmail.com" class="icon" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/593985635691" class="icon" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+            </article>
+        </section>
+        <section class="content">
+            <section>
+                <h2 class="title">Proyectos</h2>
+                <article class="card">
+                    <h3>Utilidades C++</h3>
+                    <p>Conjunto de clases que resuelven procedimientos típicos de la programación.</p>
+                    <div class="demo">
+                        <img class="demo__img" src="../img/menu-graphic-test.png" alt="menu graphic test">
+                        <p class="demo__description">Clase que crea un menu gráfico accesible mediante las teclas
+                            direccionales.</p>
+                    </div>
+                    <div class="demo">
+                        <img class="demo__img" src="../img/marquee-test.png" alt="marquee test">
+                        <p class="demo__description">Clase que crea una marquesina que puede ser utilizada en conjunto con Threads.</p>
+                    </div>
+                    <div class="card__btns">
+                        <button class="btn" type="button" name="btn-utilities-cpp-repository">Código</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Retos de programación</h3>
+                    <p>Resolución de problemas típicos planteados en pruebas técnicas de programación.</p>
+                    <div class="demo">
+                        <img class="demo__img" src="../img/words-counter-test].png" alt="words counter test">
+                        <p class="demo__description">Programa que cuenta cada una de las palabras de una oración, eliminando signos de puntuación y estadarizando su formato.</p>
+                    </div>
+                    <div class="card__btns">
+                        <button class="btn" type="button" name="btn-challenges-code-repository">Código</button>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
